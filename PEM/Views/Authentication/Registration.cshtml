@@ -1,0 +1,84 @@
+﻿@*@{
+    Layout = null;
+}*@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login PEM</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/signIn.css" />
+
+</head>
+<body class="body-register">
+    <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+        <div class="container">
+            <div class="card login-card">
+                <div class="row no-gutters">
+                    <div class="col-md-5 ">
+                        <img src="~/pics/Registration.jpg" alt="login" class="login-card-img">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <div class="brand-wrapper">
+                            </div>
+                            <h4>New here?</h4>
+                            <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
+                            <form class="pt-3">
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Username" data-kwimpalastatus="alive" data-kwimpalaid="1616803529807-2">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Email" data-kwimpalastatus="alive" data-kwimpalaid="1616803529807-3">
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control form-control-lg" id="exampleFormControlSelect2">
+                                        <option>Country</option>
+                                        <option>United States of America</option>
+                                        <option>United Kingdom</option>
+                                        <option>India</option>
+                                        <option>Germany</option>
+                                        <option>Argentina</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" data-kwimpalastatus="alive" data-kwimpalaid="1616803529807-1">
+                                </div>
+                                <div class="mb-4">
+                                    <div class="form-check">
+                                        <label class="form-check-label text-muted">
+                                            <input type="checkbox" class="form-check-input">
+                                            I agree to all Terms &amp; Conditions
+                                            <i class="input-helper"></i>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <a class="btn btn-block btn-lg auth-form-btn btn btn-block login-btn mb-4" href="@Url.Action("Loggin", "Home")">SIGN UP</a>
+                                </div>
+                                <div class="text-center mt-4 font-weight-light">
+                                    Already have an account? <a href="@Url.Action("Loggin", "Home")" class="text-reset">Login</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+@*<div class="auth-form-light text-left py-5 px-4 px-sm-5">
+    <div class="brand-logo">
+        <img src="#" alt="logo">
+    </div>
+    
+</div>*@
